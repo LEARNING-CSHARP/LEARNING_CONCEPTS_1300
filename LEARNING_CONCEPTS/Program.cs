@@ -4,11 +4,11 @@
 	{
 		static void Main(string[] args)
 		{
-			Father oFather = new Father();
+			Father father = new Father();
 
-			oFather.X = 10;
-			//oFather.Y = 20;
-			//oFather._z = 30;
+			father.X = 10;
+			//father.y = 20;
+			//father.Z = 30;
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();

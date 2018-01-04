@@ -7,14 +7,14 @@
 		}
 
 		public int X;
-		protected int Y;
-		private int _z;
+		private int y;
+		protected int Z;
 
 		public void SomeFunction1()
 		{
 			X = 10;
-			Y = 20;
-			_z = 30;
+			y = 20;
+			Z = 30;
 		}
 	}
 }

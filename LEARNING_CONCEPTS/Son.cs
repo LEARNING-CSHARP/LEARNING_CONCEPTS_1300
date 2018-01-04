@@ -9,8 +9,8 @@
 		public void SomeFunction2()
 		{
 			X = 10;
-			Y = 20;
-			//_z = 30;
+			//y = 20;
+			Z = 30;
 		}
 	}
 }
