@@ -8,9 +8,9 @@
 
 		public void SomeFunction2()
 		{
-			X = 10;
-			//y = 20;
-			Z = 30;
+			X = 10; // OK
+			//y = 20; // Not Accessable
+			Z = 30; // OK
 		}
 	}
 }

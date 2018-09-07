@@ -12,9 +12,9 @@
 
 		public void SomeFunction1()
 		{
-			X = 10;
-			y = 20;
-			Z = 30;
+			X = 10; // OK
+			y = 20; // OK
+			Z = 30; // OK
 		}
 	}
 }

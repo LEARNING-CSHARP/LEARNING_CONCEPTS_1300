@@ -1,14 +1,18 @@
 ﻿namespace LEARNING_CONCEPTS
 {
-	class Program
+	internal static class Program
 	{
-		static void Main(string[] args)
+		static Program()
+		{
+		}
+
+		internal static void Main(string[] args)
 		{
 			Father father = new Father();
 
-			father.X = 10;
-			//father.y = 20;
-			//father.Z = 30;
+			father.X = 10; // OK
+			//father.y = 20; // Not Accessable
+			//father.Z = 30; // Not Accessable
 
 			System.Console.Write("Press [ENTER] To Exit...");
 			System.Console.ReadLine();
